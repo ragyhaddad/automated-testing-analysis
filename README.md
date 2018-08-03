@@ -7,4 +7,4 @@
 * Rscripts for automated generation of batch reports and distributions of STDF files.
 
 
-### Note: This repo is for personal use please contact me at ragy202@gmail.com if you have any questions about automated testing data.
+##### Note: This repo is for personal use please contact me at ragy202@gmail.com if you have any questions about automated testing data.
