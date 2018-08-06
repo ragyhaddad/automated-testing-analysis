@@ -8,3 +8,13 @@
 
 
 ##### Note: This repo is for personal use please contact me at ragy202@gmail.com if you have any questions about automated testing data.
+
+
+### Final Models Specs:
+#### Multiple Regression Model I specs:
+Dependant variables:
+* Continuity <> ADDR_DEF
+* Continuity <> SDA
+* Continuity <> TX_EN
+
+
