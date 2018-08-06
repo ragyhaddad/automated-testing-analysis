@@ -11,10 +11,9 @@ from matplotlib.backends.backend_pdf import PdfPages
 import itertools
 import scipy.stats as stats
 import os
+from sklear.cross_validation import train_test_split
 
 ##Testing mode
-# df = pd.read_csv(sys.argv[1],skiprows=[1])
-# df = df.dropna()
 df = 0
 columnOne = 0
 pca = 0
@@ -95,10 +94,7 @@ def scatterComponents():
 	ylabel = 'principal component 2 (' + str(round(pca.explained_variance_ratio_[1]*100,4)) +' %)'
 	plt.xlabel(xlabel)
 	plt.ylabel(ylabel)
-	# plt.savefig(pp,format='pdf')
-	# plt.clf()
 	
-
 
 #Draw PCA Vectors
 def draw_vector(v0,v1, ax = None):
@@ -236,20 +232,8 @@ def backProjectNormal(column_no):
 
 
 
-for filename in os.listdir(sys.argv[1]):
-    if filename.endswith(".csv"):
-		print(os.path.join(sys.argv[1], filename))
-		file_path = os.path.join(sys.argv[1],filename)
-		readFile(file_path)
-		fitFile()
-		meanError()
-		# print inverse_df
 
 
-
-
-print max_differences
-plotMeanError(max_differences)
 
 		# meanError()
 
