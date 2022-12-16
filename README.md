@@ -1,5 +1,7 @@
 ## ATE Analysis
-#### Analysis of Semiconductor Automated Testing Data.
+
+Code back in my first ever internship at Spectra7 - the code does simple dimensionality reduction and some other unsupervised learning. It was my first time learning R at the time. 
+
 ### This repository contains the following:
 * Conversion of STDF (Standard Testing Data Format) from binary to csv with pipeline built on top of pystdf
 * Automated Dimensionality Reduction of multivariable data using PCA, exploting dimensionality reduction to reduce testing time.
